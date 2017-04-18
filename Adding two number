@@ -13,7 +13,7 @@ public class Addition {
 		a=Integer.parseInt(br.readLine());
 		System.out.println("Enter the 2st numbers:");
 		b=Integer.parseInt(br.readLine());
-		c = a+b;
+		c = a-(-b);
 		System.out.println("\nSum of two numbers:"+ c);
 		}
 		}
